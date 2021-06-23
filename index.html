@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ビーチ予約</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- navbar -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <!-- h1 -->
+    <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+    <!-- card h2 -->
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+</head>
+
+<body>
+    <div class="uk-position-relative">
+        <!-- <img src="./images/sandy_beach.jpg" alt=""> -->
+
+        <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-height-large"
+            data-src="./images/sandy_beach.jpg" uk-img>
+            <h1 class="uk-heading-medium" style="font-family: 'Kirang Haerang', cursive; font-size: 72pt;">Welcome to Resort!!</h1>
+        </div>
+
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="#" style="color: white; font-size: 14pt; font-family: 'Nunito', sans-serif;">Home</a></li>
+                        <li><a href="#" style="color: aliceblue; font-size: 14pt; font-family: 'Nunito', sans-serif;">About</a></li>
+                        <li><a href="#" style="color: aliceblue; font-size: 14pt; font-family: 'Nunito', sans-serif;">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="uk-section uk-section-muted" style="background-color: #e0ffff;">
+        <div class="uk-container">
+            <h2 style="font-family: 'Kirang Haerang', cursive; font-size: 36pt; text-align: center;" class="">News</h2>
+    
+            <div class="uk-grid-match uk-child-width-1-3" style="text-align: center;">
+                <div class="uk-align-center uk-margin-small-bottom">
+                    <a href="#" class="uk-link-text" style="font-family: 'Kirang Haerang', cursive; font-size: 16pt; text-align: center;">
+                        <time datetime="2021-06-11" class="uk-margin-right">2021年7月25日</time>
+                        <span>フラダンス教室開催決定</span>
+                    </a>
+                </div>
+                <div class="uk-align-center uk-margin-small-bottom">
+                    <a href="#" class="uk-link-text" style="font-family: 'Kirang Haerang', cursive; font-size: 16pt; text-align: center;">
+                        <time datetime="2021-06-11" class="uk-margin-right">2021年8月10日</time>
+                        <span>水泳教室開催決定</span>
+                    </a>
+                </div>
+                <div class="uk-align-center uk-margin-small-bottom">
+                    <a href="#" class="uk-link-text" style="font-family: 'Kirang Haerang', cursive; font-size: 16pt; text-align: center;">
+                        <time datetime="2021-06-11" class="uk-margin-right">2021年8月13日</time>
+                        <span>カヤック教室開催決定</span>
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="uk-section uk-section-default">
+        <div class="uk-container">
+    
+            <div class="uk-panel uk-margin-medium">
+                <h2 style="font-family: 'Kirang Haerang', cursive; font-size: 36pt; text-align: center;">Services</h2>
+            </div>
+            
+            <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="./images/window_view.jpg" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title" style="font-family: 'M PLUS Rounded 1c', sans-serif;">自慢のリゾートコテージ</h3>
+                            <p>家族連れのお客様に快適な体験をしていただけるよう、広々としたコテージを用意。</p>
+                            <button class="uk-button uk-button-default uk-align-center">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="./images/receptionists.jpg" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title" style="font-family: 'M PLUS Rounded 1c', sans-serif;">24時間対応</h3>
+                            <p>お客様の安心・安全なご利用のため、スタッフが24時間体制で受け付けております。</p>
+                            <button class="uk-button uk-button-default uk-align-center">Detail</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="./images/vacation.jpg" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title" style="font-family: 'M PLUS Rounded 1c', sans-serif;">充実した施設</h3>
+                            <p>マッサージ、日焼けサロン、バーベキューなど、充実した休暇を送れるような施設・サービスを提供します。</p>
+                            <button class="uk-button uk-button-default uk-align-center">Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
